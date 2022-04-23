@@ -1,9 +1,22 @@
 import React from 'react'
+import { Button } from 'react-native'
+import style from './style'
 
-function Homepage() {
+
+
+
+const Homepage = () => {
   return (
-    <div>Boo!</div>
+    
+      <Button>Homepage</Button>
+    
   )
 }
+
+
+
+
+
+
 
 export default Homepage
